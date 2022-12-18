@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>project</name>
+    </assembly>
+    <members>
+        <member name="M:project.Controllers.ProjectController.GetAll">
+            <summary>
+            Gets all projects from database.
+            </summary>
+        </member>
+        <member name="M:project.Controllers.ProjectController.GetAllFiltered(System.String)">
+            <summary>
+            Gets all projects from database with different filters.
+            </summary>
+        </member>
+        <member name="M:project.Controllers.ProjectController.Get(System.Int32)">
+            <summary>
+            Gets a project by id
+            </summary>
+        </member>
+        <member name="M:project.Controllers.ProjectController.GetAllTasks(System.Int32)">
+            <summary>
+            Gets all tasks of a project.
+            </summary>
+        </member>
+        <member name="M:project.Controllers.ProjectController.Create(project.Models.Project)">
+            <summary>
+            Creating a project
+            </summary>
+        </member>
+        <member name="M:project.Controllers.ProjectController.Update(System.Int32,project.Models.Project)">
+            <summary>
+            Updating existing project
+            </summary>
+        </member>
+        <member name="M:project.Controllers.ProjectController.Delete(System.Int32)">
+            <summary>
+            Deletes a project
+            </summary>
+        </member>
+        <member name="M:project.Controllers.TaskController.GetAll">
+            <summary>
+            Gets all tasks from database.
+            </summary>
+        </member>
+        <member name="M:project.Controllers.TaskController.Get(System.Int32)">
+            <summary>
+            Gets a task by id.
+            </summary>
+        </member>
+        <member name="M:project.Controllers.TaskController.Create(project.Models.Task)">
+            <summary>
+            Creates a task
+            </summary>
+        </member>
+        <member name="M:project.Controllers.TaskController.Update(System.Int32,project.Models.Task)">
+            <summary>
+            Updates a task
+            </summary>
+        </member>
+        <member name="M:project.Controllers.TaskController.Delete(System.Int32)">
+            <summary>
+            Deletes the task
+            </summary>
+        </member>
+    </members>
+</doc>
