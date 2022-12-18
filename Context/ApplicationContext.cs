@@ -14,10 +14,10 @@ public class ApplicationContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         //there should be connection data here
-        string server = "localhost";  // the name of server
-        string user = "root"; // user
-        string password = "bake0706Dmysql"; // password
-        string database = "project_db"; // database
+        string server = "[yourserver]";  // the name of server
+        string user = "[yourusername]"; // user
+        string password = "[yourpassword]"; // password
+        string database = "[yourdatabase]"; // database
         String con = String.Format("server={0};user={1};password={2};database={3};", server, user, password, database);
         optionsBuilder.UseMySQL(con);
     }
